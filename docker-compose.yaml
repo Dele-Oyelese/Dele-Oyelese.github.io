@@ -1,0 +1,13 @@
+version: "3.8"
+services: 
+  personal_webpage:
+    build: ./personal_webpage
+    container_name: personal_webpage_c
+    ports:
+     - '3000:3000'
+    volumes: 
+      - ./personal_webpage:/app
+      - ./personal_webpage/node_modules
+    stdin_open: true
+    tty: true
+    
