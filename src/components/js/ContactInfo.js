@@ -1,5 +1,5 @@
 import React from 'react';
-import "../css/AboutMe.css";
+import "../css/ContactInfo.css";
 import "../../App.css"
 
 function Contact() {
@@ -8,7 +8,7 @@ function Contact() {
         
 <>
 
-    
+
 </>
 
     )

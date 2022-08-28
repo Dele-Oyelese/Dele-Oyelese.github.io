@@ -7,6 +7,7 @@ import Projects from './components/pages/Projects';
 import Bio from './components/pages/Bio';
 import SignUp from './components/pages/SignUp';
 import Footer from './components/js/Footer';
+import MapProject from './components/pages/MapProject';
 
 
 
@@ -26,6 +27,7 @@ function App() {
 
           {/* TODO Look into sub pathing in projects folder */}
           <Route path ='/projects' element = {<Projects />}/>
+            <Route path ='/projects/map-project' element = {<MapProject/>}/>
           {/* Add in python  database project and Black jack game */}
           <Route path ='/sign-up' element = {<SignUp />}/>
         </Routes>
