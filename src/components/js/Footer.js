@@ -31,10 +31,10 @@ function Footer() {
         <div className='social-media-wrap'>
         <div className='footer-logo'>
             <Link to = '/'className='social-logo'>
-            <i class="fa-solid fa-angle-left"></i>
-            <i class="fa-solid fa-angle-right"></i>
+            <i className="fa-solid fa-angle-left"></i>
+            <i className="fa-solid fa-angle-right"></i>
             &nbsp;Dele Oyelese &nbsp;
-            <i class='fa-solid fa-code' />
+            <i className='fa-solid fa-code' />
             </Link>
         </div>
         <small className='website-rights'> Dele Oyelese © 2022 </small>
