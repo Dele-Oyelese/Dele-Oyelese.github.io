@@ -31,10 +31,10 @@ function Navbar() {
 
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
 
-            <i class="fa-solid fa-angle-left"></i>
-            <i class="fa-solid fa-angle-right"></i>
+            <i className="fa-solid fa-angle-left"></i>
+            <i className="fa-solid fa-angle-right"></i>
             &nbsp;Dele Oyelese &nbsp;
-            <i class='fa-solid fa-code' />
+            <i className='fa-solid fa-code' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
