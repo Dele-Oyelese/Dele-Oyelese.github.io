@@ -5,25 +5,25 @@ import '../css/Footer.css'
 function Footer() {
   return (
     <div className='footer-container'>
-        <section className = 'footer-subscription'>
-            <p className='footer-subscriotion-heading'>
-                Join the newsletter for up to dat information
+      
+      {/* section for adding contact box */}
+        {/* <section className = 'footer-subscription'>
+            <p className='footer-subscription-heading'>
+                Join the newsletter for up to date information
             </p>
-            <p className='footer-subscriotion-text'>
+            <p className='footer-subscription-text'>
                 unsubscribe at any time
             </p>
             <div className='input-areas'>
             <form>
                 <input type = 'email' name = 'email' placeholder =" Your Email"  className='footer-input'/>
-                <Button buttonStyle='btn--outline'>Subscribe</Button>
+                <Button buttonStyle='btn--outline'>Contact</Button>
             </form>
             </div>
-        </section>
+        </section> */}
         <div className='footer-links'>
         <div className='footer-links-wrapper'>
         <div className='footer-links-items'>
-        <h2>About Me</h2>
-        <Link to= 'sign/up'> How it works</Link>
         
         </div></div></div>
 
@@ -31,10 +31,10 @@ function Footer() {
         <div className='social-media-wrap'>
         <div className='footer-logo'>
             <Link to = '/'className='social-logo'>
-            <i class="fa-solid fa-angle-left"></i>
-            <i class="fa-solid fa-angle-right"></i>
+            <i className="fa-solid fa-angle-left"></i>
+            <i className="fa-solid fa-angle-right"></i>
             &nbsp;Dele Oyelese &nbsp;
-            <i class='fa-solid fa-code' />
+            <i className='fa-solid fa-code' />
             </Link>
         </div>
         <small className='website-rights'> Dele Oyelese © 2022 </small>

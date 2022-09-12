@@ -10,10 +10,10 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={require('../../images/BlackJack.jpeg')}
-              text='Functional BlackJack Game'
-              label='Python'
-              path='/projects'
+              src={require('../../images/SpaceShipLaunch.jpeg')}
+              text='Interactive Spaceship Launch Map'
+              label='React/JSON'
+              path='/projects/map-project'
             />
             <CardItem
               src={require('../../images/pandasPython.png')}
@@ -36,8 +36,8 @@ function Cards() {
               path='/projects'
             />
             <CardItem
-              src={require('../../images/API.png')}
-              text='API Scrapper'
+              src={require('../../images/BlackJack.jpeg')}
+              text='Functional BlackJack Game'
               label='Python'
               path='/projects'
             />
