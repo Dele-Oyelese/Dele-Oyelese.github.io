@@ -9,6 +9,9 @@ import SignUp from './components/pages/SignUp';
 import Footer from './components/js/Footer';
 import MapProject from './components/pages/MapProject';
 import Contact from './components/pages/Contact';
+import Game from './components/pages/Game';
+// import Game from './components/bunny-jump/src/scenes/Game.js';
+// import GameOver from './components/bunny-jump/src/scenes/GameOver.js';
 
 
 
@@ -37,7 +40,7 @@ function App() {
           <Route path ='/sign-up' element = {<SignUp />}/>
 
           {/* ADD IN PHASER GAME */}
-
+          <Route path ='/game' element = {<Game/>}/>
 
         </Routes>
         {/* TODO Make footer more funcitonal */}
