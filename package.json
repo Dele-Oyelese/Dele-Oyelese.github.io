@@ -49,6 +49,6 @@
   "devDependencies": {
     "@iconify/react": "^3.2.2",
     "cross-env": "^7.0.3",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "4.0.0"
   }
 }
