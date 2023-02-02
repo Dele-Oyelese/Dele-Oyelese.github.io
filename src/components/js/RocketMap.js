@@ -10,47 +10,49 @@ import '../css/RocketMap.css';
 
 export default function RocketMap() {
 
+  //Import Space Shuttle Icon
     const spaceShuttle = new Icon({
         iconUrl: "/space-shuttle.svg",
         iconSize: [25,25]
         })  
-    const baseURL = "https://lldev.thespacedevs.com/2.2.0/launch/"
-
+  //Base API CALL URL
+    const baseURL = "https://lldev.thespacedevs.com/2.2.0/launch/upcoming/"
+    const [launchData, setLaunchData] = useState(null)
     const now = new Date();
     
     // Date in the next 2 months in the future
     const future = new Date();
-    future.setMonth(now.getDay()+2);
+    future.setMonth(now.getMonth()+2);
     const nowJSON = now.toJSON();
     const futureJSON =  future.toJSON();
 
     console.log(nowJSON)
     console.log(futureJSON)
     const apiRequest = baseURL+"?net__gte:"+{nowJSON}+"&net__lt:"+{futureJSON};
-
-    const [launchData, setLaunchData] = useState(null)
-
+    
+    //Center the map to this location
     const [mapCenter, setMapCenter] = useState([57.430673, -152.353077])
 
+  //Get API Data
   useEffect(() =>{
     fetch(apiRequest).then(res =>{
       return res.json()
     }).then(data => {
       console.log(data)
       setLaunchData(data)
-    //   setMapCenter([launchData.results[1].pad.latitude,launchData.results[1].pad.longitude])
     })
   },[]);
   return(
 
 
-
+//Render the Map
 <MapContainer center={mapCenter} zoom={3} scrollWheelZoom={false}>
   <TileLayer
     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
   />
 
+{/* Arrow Function to map all locations given */}
   {launchData && launchData.results.map(site => (
         console.log(site.pad.location.name),
         <Marker
@@ -70,7 +72,8 @@ export default function RocketMap() {
         >
           <div>
             <h2>{site.pad.location.name}</h2>
-            <p>{site.pad.name}</p>
+            <p>Launch Pad Name:{site.pad.name}</p>
+            <p>Launch Start Window: {site.window_start}</p>
           </div>
         </Popup>
     
@@ -80,4 +83,7 @@ export default function RocketMap() {
 
 </MapContainer>
 
+// TODO Code so multiple launches same location can be seen
+// TODO Window and Formatt to have explaination
+// TODO Make it locked on the one Map not the others
 );}

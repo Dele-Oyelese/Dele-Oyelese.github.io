@@ -13,13 +13,11 @@ function HeroSection() {
         {/* <video src = {video} autoPlay loop muted />
         <h1>ADVENTURE AWAITS</h1>
         <p>What are you waiting for</p> */}
-        <h1>ABOUT THIS WEBSITE</h1>
-        <p>This website is a personal project to help document 
-        my Software Engineering Journey. The purpose
-        is to help solidify my knowledge as I go through my Master’s 
-        of Software Engineering at the University of Calgary. This project is run using 
-        React Js and containerized using docker. The code can be found on my github linked 
-        in the footer</p>
+        <h1>DELE OYELESE</h1>
+        <p>This website is a personal project to help document and showcase projects 
+        I have and am currently working on. 
+        This website is run using React Js and containerized using docker. 
+        The code can be found on my GitHub link in the footer</p>
         <div className="hero-btns">
           <Button
             className="btns"
