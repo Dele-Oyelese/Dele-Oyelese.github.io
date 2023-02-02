@@ -37,7 +37,7 @@ function Footer() {
             <i className='fa-solid fa-code' />
             </Link>
         </div>
-        <small className='website-rights'> Dele Oyelese © 2022 </small>
+        <small className='website-rights'> Dele Oyelese © 2023 </small>
         <div className='social-icons'>
             <a className='social-icon-link linkedin'
             target ='_blank'

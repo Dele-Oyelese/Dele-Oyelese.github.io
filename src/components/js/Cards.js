@@ -16,19 +16,21 @@ function Cards() {
               path='/projects/map-project'
             />
             <CardItem
-              src={require('../../images/pandasPython.png')}
-              text='Country Tech Use Dataframe'
-              label='Python/Pandas'
-              path='/projects'
+              src={require('../../images/YYCHubLanding.png')}
+              text='YYC Hub'
+              label='Hackathon Second Place'
+              path='/projects/YYCHub'
             />
+     
           </ul>
           <ul className='cards__items'>
-            <CardItem
-              src={require('../../images/Sudoku.jpeg')}
-              text='Sudoku Problem Solver'
-              label='Python'
-              path='/projects'
+          <CardItem
+              src={require('../../images/Phaser.jpeg')}
+              text='Infinite Jumper Mini Game'
+              label='JavaScript'
+              path='/projects/game'
             />
+        
             <CardItem
               src={require('../../images/Maze.jpeg')}
               text='Maze Solver'
