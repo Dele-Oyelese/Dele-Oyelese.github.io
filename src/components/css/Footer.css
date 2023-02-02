@@ -1,10 +1,14 @@
 .footer-container {
     background-color: #242424;
     padding: 4rem 0 2rem 0;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    bottom: 0; /* set the bottom property to 0 to position it at the bottom */
+    left: 0; /* set the left property to 0 to position it at the left */
+    right: 0; /* set the right property to 0 to position it at the right */ 
   }
   
   .footer-subscription {

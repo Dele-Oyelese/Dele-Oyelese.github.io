@@ -49,14 +49,14 @@ export default class Game extends Phaser.Scene
         //   this.load.image('carrot', carrot)
         //   this.load.audio('jump', phaseJump1.ogg)
         
-		this.load.image('background', 'assets/bg_layer1.png')
-		this.load.image('platform', 'assets/ground_grass.png')
-		this.load.image('bunny-stand', 'assets/bunny1_stand.png')
-		this.load.image('bunny-jump', 'assets/bunny1_jump.png')
-		this.load.image('carrot', 'assets/carrot.png')
+		this.load.image('background', '../assets/bg_layer1.png')
+		this.load.image('platform', '../assets/ground_grass.png')
+		this.load.image('bunny-stand', '../assets/bunny1_stand.png')
+		this.load.image('bunny-jump', '../assets/bunny1_jump.png')
+		this.load.image('carrot', '../assets/carrot.png')
 		
 
-		this.load.audio('jump', 'assets/sfx/phaseJump1.ogg')
+		this.load.audio('jump', '../assets/sfx/phaseJump1.ogg')
 
 		this.cursors = this.input.keyboard.createCursorKeys()
 	}
