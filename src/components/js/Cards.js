@@ -19,7 +19,7 @@ function Cards() {
               src={require('../../images/YYCHubLanding.png')}
               text='YYC Hub'
               label='Hackathon Second Place'
-              path='/projects'
+              path='/projects/YYCHub'
             />
      
           </ul>
