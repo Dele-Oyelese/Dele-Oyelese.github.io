@@ -18,6 +18,10 @@ function HeroSection() {
         I have and am currently working on. 
         This website is run using React Js and containerized using docker. 
         The code can be found on my GitHub link in the footer</p>
+        <br/>
+        <h2>Website is still under construction</h2>
+
+
         <div className="hero-btns">
           <Button
             className="btns"
