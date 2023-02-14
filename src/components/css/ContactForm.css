@@ -1,0 +1,28 @@
+.contact-info {
+    /* add your styles here */
+  }
+  
+  form label {
+    /* add your styles here */
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    /* add your styles here */
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type='submit'] {
+    /* add your styles here */
+    background-color: #4caf50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
