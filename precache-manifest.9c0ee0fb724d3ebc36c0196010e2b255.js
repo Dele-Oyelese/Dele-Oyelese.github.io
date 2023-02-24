@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "b02625f26a91d9749cdd",
-    "url": "/static/css/main.355133cf.chunk.css"
+    "revision": "b3e33cabbecb50631889",
+    "url": "/static/css/main.35bdfdb9.chunk.css"
   },
   {
-    "revision": "b02625f26a91d9749cdd",
-    "url": "/static/js/main.b02625f2.chunk.js"
+    "revision": "b3e33cabbecb50631889",
+    "url": "/static/js/main.b3e33cab.chunk.js"
   },
   {
-    "revision": "13a111c3fdb2d1356760",
-    "url": "/static/js/1.13a111c3.chunk.js"
+    "revision": "98a45bdac10780797d15",
+    "url": "/static/js/1.98a45bda.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -52,14 +52,6 @@ self.__precacheManifest = [
     "url": "/static/media/Phaser.14b2c678.jpeg"
   },
   {
-    "revision": "eb16772ba7c6b4d4a15ddb4474c61f1c",
-    "url": "/static/media/Maze.eb16772b.jpeg"
-  },
-  {
-    "revision": "feb310c520f67b167027fbdba5cac9ae",
-    "url": "/static/media/BlackJack.feb310c5.jpeg"
-  },
-  {
     "revision": "6c3f40a56c7f88a69133e68a486848cd",
     "url": "/static/media/astronaut.6c3f40a5.jpeg"
   },
@@ -68,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/YYCHubIntergrated.97b7d2be.png"
   },
   {
-    "revision": "54cc973fe01b64dfbcef1097974dc525",
+    "revision": "1b3b9568cb32cec290620aefdd17442c",
     "url": "/index.html"
   }
 ];
