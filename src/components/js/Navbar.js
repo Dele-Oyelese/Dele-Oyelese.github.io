@@ -54,7 +54,7 @@ function Navbar() {
                 Bio
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 to='/projects'
                 className='nav-links'
@@ -62,9 +62,9 @@ function Navbar() {
               >
                 Projects
               </Link>
-            </li>
+            </li> */}
 
-            <li>
+            {/* <li>
               <Link
                 to='/contact'
                 className='nav-links-mobile'
@@ -72,9 +72,9 @@ function Navbar() {
               >
                 Contact Me
               </Link>
-            </li>
+            </li> */}
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
+          {/* {button && <Button buttonStyle='btn--outline'>Contact Me</Button>} */}
         </div>
       </nav>
     </>

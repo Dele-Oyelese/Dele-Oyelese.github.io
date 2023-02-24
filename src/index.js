@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import './components/js/BunnyJump.js'
+import './components/js/Tic.js'
 
 ReactDOM.render(
 

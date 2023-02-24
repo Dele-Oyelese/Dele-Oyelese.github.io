@@ -1,7 +1,7 @@
 import React, { useEffect, useRef }  from 'react';
-import Phaser from '../bunny-jump/src/lib/phaser';
-import Game from '../bunny-jump/src/scenes/Game.js'
-import GameOver from '../bunny-jump/src/scenes/GameOver.js'
+import Phaser from '../games/bunny-jump/src/lib/phaser';
+import Game from '../games/bunny-jump/src/scenes/Game.js'
+import GameOver from '../games/bunny-jump/src/scenes/GameOver.js'
 import '../css/Game.css'
 
 

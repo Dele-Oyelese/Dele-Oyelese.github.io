@@ -32,17 +32,17 @@ function Cards() {
             />
         
             <CardItem
-              src={require('../../images/Maze.jpeg')}
-              text='Maze Solver'
-              label='Python'
-              path='/projects'
+              src={require('../../images/tictactoe.png')}
+              text='TicTacToe MiniGame'
+              label='JavaScript'
+              path='/projects/tic'
             />
-            <CardItem
+            {/* <CardItem
               src={require('../../images/BlackJack.jpeg')}
               text='Functional BlackJack Game'
               label='Python'
               path='/projects'
-            />
+            /> */}
           </ul>
         </div>
       </div>
