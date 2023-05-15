@@ -5,6 +5,7 @@ import "../css/HeroSection.css";
 import video from '../../videos/video-2.mp4';
 
 
+
 console.log(video);
 
 function HeroSection() {
@@ -19,7 +20,9 @@ function HeroSection() {
         This website is run using React Js and containerized using docker. 
         The code can be found on my GitHub link in the footer</p>
         <br/>
-        <h2>Website is still under construction</h2>
+        <h2 style={{ color: 'red' }}>Website is still under construction &nbsp;
+        <i style ={{ color: 'white' }} className="fa-sharp fa-solid fa-person-digging" />
+        </h2>
 
 
         <div className="hero-btns">
@@ -27,7 +30,7 @@ function HeroSection() {
             className="btns"
             buttonStyle="btn--outline"
             buttonSize="btn--large"
-            path= '/bio'>
+            to = '/bio'>
           About Me
           </Button>
         </div>

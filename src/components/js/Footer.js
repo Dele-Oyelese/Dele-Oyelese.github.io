@@ -35,6 +35,7 @@ function Footer() {
             <i className="fa-solid fa-angle-right"></i>
             &nbsp;Dele Oyelese &nbsp;
             <i className='fa-solid fa-code' />
+            
             </Link>
         </div>
         <small className='website-rights'> Dele Oyelese © 2023 </small>
