@@ -31,7 +31,7 @@ export default function RocketMap() {
     const apiRequest = baseURL+"?net__gte:"+{nowJSON}+"&net__lt:"+{futureJSON};
     
     //Center the map to this location
-    const [mapCenter, setMapCenter] = useState([57.430673, -152.353077])
+    const [mapCenter, setMapCenter] = useState([41.20200025131603, -1.2383634060198772])
 
   //Get API Data
   useEffect(() =>{

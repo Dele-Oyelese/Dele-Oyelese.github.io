@@ -15,22 +15,23 @@ function Cards() {
               label='React/JSON'
               path='/projects/map-project'
             />
-            <CardItem
-              src={require('../../images/YYCHubLanding.png')}
-              text='YYC Hub'
-              label='Hackathon Second Place'
-              path='/projects/YYCHub'
-            />
-     
-          </ul>
-          <ul className='cards__items'>
-          <CardItem
+                     <CardItem
               src={require('../../images/Phaser.jpeg')}
               text='Infinite Jumper Mini Game'
               label='JavaScript'
               path='/projects/game'
             />
-        
+    
+     
+          </ul>
+          <ul className='cards__items'>
+ 
+          <CardItem
+              src={require('../../images/YYCHubLanding.png')}
+              text='YYC Hub'
+              label='Hackathon Second Place'
+              path='/projects/YYCHub'
+            />
             <CardItem
               src={require('../../images/tictactoe.png')}
               text='TicTacToe MiniGame'

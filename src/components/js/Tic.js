@@ -18,6 +18,7 @@ const TicTacToe = () => {
                 orientation: 'LANDSCAPE'
             },
             resolution: window.devicePixelRatio,
+            parent: gameContainer.current,
             pixelArt: true,
             physics: {
                 default: 'arcade',
@@ -34,8 +35,8 @@ const TicTacToe = () => {
         var game = new Phaser.Game(config);
         function resize() {
             let canvas = document.querySelector('canvas');
-            let width = window.innerWidth;
-            let height = window.innerHeight;
+            let width = window.outerWidth;
+            let height = window.outerHeight;
             let wratio = width / height;
             let ratio = game.config.width / game.config.height;
             if (wratio < ratio) {

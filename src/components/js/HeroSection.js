@@ -17,7 +17,7 @@ function HeroSection() {
         <h1>DELE OYELESE</h1>
         <p>This website is a personal project to help document and showcase projects 
         I have and am currently working on. 
-        This website is run using React Js and containerized using docker. 
+        This website is run using React JS and containerized using docker. 
         The code can be found on my GitHub link in the footer</p>
         <br/>
         <h2 style={{ color: 'red' }}>Website is still under construction &nbsp;
@@ -27,10 +27,11 @@ function HeroSection() {
 
         <div className="hero-btns">
           <Button
-            className="btns"
+            className="btn"
             buttonStyle="btn--outline"
             buttonSize="btn--large"
-            to = '/bio'>
+            to = '/bio'
+            >
           About Me
           </Button>
         </div>

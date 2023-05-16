@@ -33,7 +33,7 @@ function Navbar() {
 
             <i className="fa-solid fa-angle-left"></i>
             <i className="fa-solid fa-angle-right"></i>
-            &nbsp;Dele Oyelese &nbsp;
+           Dele Oyelese
             <i className='fa-solid fa-code' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>

@@ -32,7 +32,7 @@ function App() {
           {/* Creates relative paths bio projects */}
           <Route path='/' element={<Home />} />
           <Route path='/bio' element={<Bio />} />
-          {/* TODO Format Contact Page */}
+          
           <Route path='/contact' element={<Contact />} />
 
           {/* TODO Look into sub pathing in projects folder */}
@@ -49,6 +49,7 @@ function App() {
 
           {/* ADD IN PHASER GAME */}
           <Route path='projects/tic' element={<TicTacToe />} />
+
           {/* TODO REMOVE GAME FROM RENDER AFTER GOING TO PAGE */}
           <Route path='/test' element={<Tester />} />
         </Routes>
