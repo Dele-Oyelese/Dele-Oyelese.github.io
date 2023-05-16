@@ -12,6 +12,7 @@ import Contact from './components/pages/Contact';
 import BunnyGame from './components/pages/BunnyGame';
 import YYCHub from './components/pages/YYCHub';
 import TicTacToe from './components/pages/TicTacToe';
+import Tester from './components/pages/Tester';
 // import Game from './components/bunny-jump/src/scenes/Game.js';
 // import GameOver from './components/bunny-jump/src/scenes/GameOver.js';
 
@@ -49,7 +50,7 @@ function App() {
           {/* ADD IN PHASER GAME */}
           <Route path='projects/tic' element={<TicTacToe />} />
           {/* TODO REMOVE GAME FROM RENDER AFTER GOING TO PAGE */}
-
+          <Route path='/test' element={<Tester />} />
         </Routes>
         {/* TODO Make footer more funcitonal */}
         <Footer />

@@ -25,28 +25,29 @@ function ContactForm() {
       <fieldset>
         <legend>Contact Me</legend>
 
-        <div class="form-group">
-          <label for="exampleInputEmail1" class="form-label mt-4">Subject</label>
-          <input type="text" class="form-control" id="subject" name="subject" aria-describedby="contactPhone" placeholder="Enter your subject" />
+        <div className="form-group">
+          <label htmlFor="exampleInputEmail1" className="form-label mt-4">Subject</label>
+          <input type="text" className="form-control" id="subject" name="subject" aria-describedby="contactPhone" placeholder="Enter your subject" />
 
         </div>
 
-        <div class="form-group">
-          <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="contactEmail" placeholder="Enter email" />
+        <div className="form-group">
+          <label htmlFor="exampleInputEmail1" className="form-label mt-4">Email address</label>
+          <input type="email" className="form-control" id="exampleInputEmail1" name="exampleInputEmail1" aria-describedby="contactEmail" placeholder="Enter email" />
+
         </div>
 
 
-        <div class="form-group">
-          <label for="contactPhoneNumber" class="form-label mt-4">Phone Number</label>
-          <input type="text" class="form-control" id="contactPhoneNumber" name="contactPhoneNumber" aria-describedby="contactPhone" placeholder="Enter your phone number" />
+        <div className="form-group">
+          <label htmlFor="contactPhoneNumber" className="form-label mt-4">Phone Number</label>
+          <input type="text" className="form-control" id="contactPhoneNumber" name="contactPhoneNumber" aria-describedby="contactPhone" placeholder="Enter your phone number" />
         </div>
  
-        <div class="form-group">
-          <label for="exampleTextarea" class="form-label mt-4">Nature of Inquiry</label>
-          <textarea class="form-control" id="exampleTextarea" name="message" rows="3"></textarea>
+        <div className="form-group">
+          <label htmlFor="exampleTextarea" className="form-label mt-4">Nature of Inquiry</label>
+          <textarea className="form-control" id="exampleTextarea" name="message" rows="3"></textarea>
         </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" className="btn btn-primary">Submit</button>
     </fieldset>
   </form>
           );
