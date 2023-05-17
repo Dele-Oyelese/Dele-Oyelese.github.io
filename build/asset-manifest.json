@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba03749b.css",
-    "main.js": "/static/js/main.47b41556.js",
+    "main.css": "/static/css/main.be5abdd1.css",
+    "main.js": "/static/js/main.610cd0b1.js",
     "static/media/video-2.mp4": "/static/media/video-2.39e6c79bffb375ae929a.mp4",
     "static/media/YYCHubLanding.png": "/static/media/YYCHubLanding.dbb5fbbb31eb58a3e826.png",
     "static/media/img-2.jpg": "/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
@@ -14,11 +14,11 @@
     "static/media/Phaser.jpeg": "/static/media/Phaser.2cdbf34ce4667614f9a2.jpeg",
     "static/media/layer2.svg": "/static/media/layer2.ce5cf8fe4fb6d9ba7c859f40ef003072.svg",
     "index.html": "/index.html",
-    "main.ba03749b.css.map": "/static/css/main.ba03749b.css.map",
-    "main.47b41556.js.map": "/static/js/main.47b41556.js.map"
+    "main.be5abdd1.css.map": "/static/css/main.be5abdd1.css.map",
+    "main.610cd0b1.js.map": "/static/js/main.610cd0b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba03749b.css",
-    "static/js/main.47b41556.js"
+    "static/css/main.be5abdd1.css",
+    "static/js/main.610cd0b1.js"
   ]
 }

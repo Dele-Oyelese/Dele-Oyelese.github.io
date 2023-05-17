@@ -2,6 +2,7 @@ import React, { useEffect, useRef }  from 'react';
 import Phaser from '../games/bunny-jump/src/lib/phaser';
 import Game from '../games/bunny-jump/src/scenes/Game.js'
 import GameOver from '../games/bunny-jump/src/scenes/GameOver.js'
+import Title from '../games/bunny-jump/src/scenes/Title.js'
 import '../css/Game.css'
 
 
@@ -27,7 +28,7 @@ const BunnyJump = () => {
             debug: false
         }
     },
-    scene:[Game, GameOver]
+    scene:[Title,Game, GameOver]
     });
 
     return () => {
